@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useHistory } from "react-router-dom";
 import { login } from '../../features/users/userSlice';
-import './login.css'
 
 const Login =()=>{
     
