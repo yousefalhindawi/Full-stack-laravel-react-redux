@@ -14,12 +14,15 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
-      <div className="container-fluid">
-        <NavLink className="navbar-brand" to="/">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-primary ">
+      <div className="container-fluid ">
+        <div className="nav-link">
+
+        <NavLink className="navbar-brand" to="/home">
           Products
         </NavLink>
-        <button
+        </div>
+        {/* <button
           className="navbar-toggler"
           type="button"
           data-mdb-toggle="collapse"
@@ -29,8 +32,8 @@ const Navbar = () => {
           aria-label="Toggle navigation"
         >
           <i className="fas fa-bars"></i>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
+        </button> */}
+        <div className="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
               <NavLink className="nav-link" aria-current="page" to="/home">
